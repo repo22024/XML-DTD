@@ -12,21 +12,21 @@ Este proyecto gestiona datos para una Clínica Veterinaria, con estructuras XML 
 
 * La gestión de datos del XML, como estructura de BD, abarca el control de varias especies, como pacientes de la clínica, y sus dueños. De la forma que está estructurado el XML admite la escalabilidad horizontal y vertical que se requiera en un futuro.
 
-* Actualmente consta de la seccion <clinica> como raiz del documento que contiene:
-    * sección <pacientes> en un segundo nivel 
-        * sección <mascotas> en un tercer nivel que contiene como padre la sección pacientes
-            * sección <mascota> en un cuarto nivel que contiene como padre la sección mascotas
-                * dentro de la sección <mascota> en un quinto  nivel los elementos:    
-                    *                   <nombre>
-                                        <especie>
-                                        <raza>
-                                        <edad>
-                                        <id_dueño>
-        * sección <dueños_mascotas> en un tercer nivel que contiene como padre la sección pacientes
-            * sección <dueño_mascota> en un cuarto nivel que contiene como padre la sección dueños_mascotas
-                * dentro de la sección <dueño_mascota> en un quinto  nivel los elementos: 
-                    *                           <nombre>
-                                                <telefono>
+* Actualmente consta de la seccion "clinica" como raiz del documento que contiene:
+    * sección "pacientes" en un segundo nivel 
+        * sección "mascotas" en un tercer nivel que contiene como padre la sección pacientes
+            * sección "mascota" en un cuarto nivel que contiene como padre la sección mascotas
+                * dentro de la sección "mascota" en un quinto  nivel los elementos:    
+                    *     <nombre>
+                          <especie>
+                          <raza>
+                          <edad>
+                          <id_dueño>
+        * sección "dueños_mascotas" en un tercer nivel que contiene como padre la sección pacientes
+            * sección "dueño_mascota" en un cuarto nivel que contiene como padre la sección dueños_mascotas
+                * dentro de la sección "dueño_mascota" en un quinto  nivel los elementos: 
+                    *     <nombre>
+                          <telefono>
                                                   
 
 ## Autor
