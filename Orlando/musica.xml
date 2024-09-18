@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE estudio PUBLIC "public-id" "musica.dtd">
+
+<estudio>
+    <canciones>
+        <cancion id_cancion="c-001" categoria="rock">
+            <titulo>Propuesta</titulo>
+            <artista>Buena Fe</artista>
+            <album>Corazonero</album>
+            <duracion>3:15</duracion>
+        </cancion>
+        <cancion id_cancion="c-002" categoria="rock">
+            <titulo>Así fue</titulo>
+            <artista>Juan Grabiel, Isabel Pantoja</artista>
+            <album>Desde Andalucía</album>
+            <duracion>3:42</duracion>
+        </cancion>
+        <cancion id_cancion="c-003" categoria="rock">
+            <titulo>Copacabana</titulo>
+            <artista>Barry Manilow</artista>
+            <album>Even Now</album>
+            <duracion>4:07</duracion>
+        </cancion>
+    </canciones>
+
+</estudio>
