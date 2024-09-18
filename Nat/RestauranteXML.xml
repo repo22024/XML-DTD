@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE restaurante PUBLIC "public-id" "RestauranteDTD.dtd">
+<restaurante>
+    <!--Crear etiqueta menu-->
+    <menus>
+        <menu idmenu="M01" categoria ="almuerzo"  idplato="P01 P02 P03">
+            <nombrem>Menu El Limon</nombrem>       
+        </menu>
+        <menu idmenu="M02" categoria ="cena" idplato="P04 P02 P05">
+            <nombrem>Menu Infantil</nombrem>       
+        </menu>
+
+    </menus>
+    <platos>
+        <plato idplato="P01" >
+            <nombre>Hamburguesa vegetariana de alubias blancas</nombre>
+            <precio>5.90</precio>
+            <ingredientes>pan de molde, alubias blancas, zanahoria, calabacin</ingredientes>           
+        </plato>
+        <plato idplato="P02" >
+            <nombre>Papas fritas</nombre>
+            <precio>3.50</precio>
+            <ingredientes>papa, aceite de oliva, sal</ingredientes>           
+        </plato>
+        <plato idplato="P03" >
+            <nombre>Zumo de naranja</nombre>
+            <precio>4.00</precio>
+            <ingredientes>naranja</ingredientes>          
+        </plato>
+        <plato idplato="P04" >
+            <nombre>Croquetas vegetarianas</nombre>
+            <precio>5.50</precio>
+            <ingredientes>pimiento verde, aceite de oliva, calabacin, espinacas, harina, huevo, leche</ingredientes>           
+        </plato>
+        <plato idplato="P05" >
+            <nombre>Zumo de platano y helado</nombre>
+            <precio>4.50</precio>
+            <ingredientes>platano, nata liquida vegana para montar, azucar glase, vanilla</ingredientes>           
+        </plato>
+    </platos>
+
+</restaurante>
