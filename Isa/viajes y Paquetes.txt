@@ -1,0 +1,13 @@
+Agencia de Viajes y Paquetes
+
+Enunciado: Crea un XML para una agencia de viajes que ofrezca paquetes turísticos. Cada paquete debe tener un idpaquete, un destino, un precio, y una lista de actividades. Cada actividad debe tener un nombre, una duración (en horas), y una descripción.
+
+Validaciones:
+
+idpaquete debe ser único.
+El destino debe ser un texto válido.
+La duración de la actividad debe ser numérica y mayor que 0.
+Estructura:
+
+Elemento principal: agencia
+Sub-elementos: paquetes, paquete, actividad

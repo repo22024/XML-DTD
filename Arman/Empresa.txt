@@ -1,0 +1,14 @@
+ Empresa y Empleados
+Enunciado: Crea un XML para una empresa que registre información de los empleados. Cada empleado debe tener un idempleado, un nombre, un departamento, y su fechaContratacion. Además, cada empleado puede tener uno o más proyectos en los que está trabajando, y cada proyecto tiene un nombre y un estado (activo, completado, pausado).
+
+Validaciones:
+
+idempleado debe ser único.
+estado de los proyectos debe ser uno de los siguientes: activo, completado, pausado.
+La fecha de contratación debe seguir el formato YYYY-MM-DD.
+Estructura:
+
+Elemento principal: empresa
+Sub-elementos: empleados, empleado, proyecto
+
+Añade cualquier otro subelemento

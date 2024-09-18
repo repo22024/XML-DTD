@@ -1,0 +1,12 @@
+Comida para Mascotas
+Enunciado: Crea un XML para una tienda de comida para mascotas. Cada tipo de comida tiene un idcomida, un nombre, una especie (perro, gato, conejo), un precio, y un peso (en kg).
+
+Validaciones:
+
+idcomida debe ser único.
+La especie debe ser una de las siguientes: perro, gato, conejo.
+El peso debe ser un número positivo.
+Estructura:
+
+Elemento principal: tienda
+Sub-elementos: comidas, comida

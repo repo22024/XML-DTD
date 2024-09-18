@@ -1,0 +1,12 @@
+Clínica Veterinaria y Mascotas
+Enunciado: Crea un XML para una clínica veterinaria. Cada mascota tiene un idmascota, un nombre, una especie (perro, gato, conejo), una raza, y una edad. Además, cada mascota tiene un dueño, y este debe tener un nombre y un telefono.
+
+Validaciones:
+
+idmascota debe ser único.
+La especie debe ser una de las siguientes: perro, gato, conejo.
+La edad debe ser un número positivo.
+Estructura:
+
+Elemento principal: clinica
+Sub-elementos: mascotas, mascota, dueño

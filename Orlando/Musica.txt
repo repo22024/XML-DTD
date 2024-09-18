@@ -1,0 +1,12 @@
+Estudio de Música y Canciones
+Enunciado: Crea un XML para un estudio de música que registre las canciones. Cada canción debe tener un idcancion, un titulo, un artista, un album, una duracion (en minutos), y una categoria (rock, pop, jazz).
+
+Validaciones:
+
+idcancion debe ser único.
+La duración debe ser un número positivo.
+La categoría debe ser una de las siguientes: rock, pop, jazz.
+Estructura:
+
+Elemento principal: estudio
+Sub-elementos: canciones, cancion
