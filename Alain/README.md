@@ -1,6 +1,6 @@
 # Clínica Veterinaria DB XML
 
-Este proyecto gestiona datos para una Clinica Veterinaria, con estructuras XML y verificadores DTD. La gestión de datos del XML abarca el control de varias especies, como pacientes de la clínica, y sus dueños. 
+Este proyecto gestiona datos para una Clínica Veterinaria, con estructuras XML y verificadores DTD. La gestión de datos del XML abarca el control de varias especies, como pacientes de la clínica, y sus dueños. 
 
 ## Comenzando
 
@@ -10,7 +10,7 @@ Este proyecto gestiona datos para una Clinica Veterinaria, con estructuras XML y
 
 ### Uso
 
-* La gestión de datos del XML, como estructura de BD, abarca el control de varias especies, como pacientes de la clínica, y sus dueños. De la forma que está estructurado el XML admite la escalabilidad horizontal y vwertical que se requiera en un futuro.
+* La gestión de datos del XML, como estructura de BD, abarca el control de varias especies, como pacientes de la clínica, y sus dueños. De la forma que está estructurado el XML admite la escalabilidad horizontal y vertical que se requiera en un futuro.
 
 * Actualmente consta de la seccion <clinica> como raiz del documento que contiene:
     * sección <pacientes> en un segundo nivel 
