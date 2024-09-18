@@ -1,3 +1,6 @@
+## Descripción
+Este repositorio contiene 9 carpetas, cada una con enunciados específicos sobre la creación y validación de documentos XML utilizando DTD. Cada colaborador debe crear su propio documento XML y validarlo contra un archivo DTD, fomentando el aprendizaje práctico y la colaboración.
+
 Estructura del Repositorio
 El repositorio se organiza en 9 carpetas, cada una asignada a un colaborador. A continuación se detalla el contenido de cada carpeta:
 
