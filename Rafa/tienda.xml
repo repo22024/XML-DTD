@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tienda PUBLIC "public-id" "tienda.dtd">
+<tienda>
+<comidas>
+    <comida idcomida="CA001" especie="Gato">
+        <nombrecomida>Delicias Gatunas</nombrecomida>
+        <precio>45.25</precio> 
+        <peso>2.5</peso>
+    </comida>
+    <comida idcomida="CA002" especie="Perro">
+        <nombrecomida>Galletas Guau</nombrecomida>
+        <precio>7.25</precio> 
+        <peso>0.750</peso>
+    </comida>
+    <comida idcomida="CA003" especie="Conejo">
+        <nombrecomida>Hinojo Fresco</nombrecomida>
+        <precio>2.5</precio> 
+        <peso>0.250</peso>
+    </comida>
+    <comida idcomida="CA004" especie="Gato">
+        <nombrecomida>Wiskas seca</nombrecomida>
+        <precio>12.50</precio> 
+        <peso>4.00</peso>
+    </comida>
+    <comida idcomida="CA005" especie="Perro">
+        <nombrecomida>Friskis</nombrecomida>
+        <precio>3.50</precio> 
+        <peso>0.50</peso>
+    </comida>
+</comidas>
+
+<clientes>
+<cliente idcliente="C001">
+    <nombrecliente>Carlos Santana</nombrecliente>
+    <telefono>922505475</telefono>
+</cliente>
+<cliente idcliente="C002">
+    <nombrecliente>Pedro Guerra</nombrecliente>
+    <telefono>922547215</telefono>
+</cliente>
+<cliente idcliente="C003">
+    <nombrecliente>Rubinos Pérez</nombrecliente>
+    <telefono>620457896</telefono>
+</cliente>
+</clientes>
+</tienda>
