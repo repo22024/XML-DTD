@@ -1,0 +1,18 @@
+### Instrucciones para la Actividad
+## Crea el Documento XML y DTD:
+Escribe un archivo XML que cumpla con el enunciado que te corresponde.
+Crea un archivo DTD separado para validar el XML. Define los elementos principales, subelementos y atributos, y asegúrate de que cumplan con las restricciones dadas en el enunciado.
+Validación del XML:
+
+Asegúrate de que el XML esté bien formado y sea válido según las reglas de tu DTD.
+Utiliza Visual Studio Code para escribir y validar el XML. Puedes instalar una extensión de XML si lo prefieres.
+Subida del Proyecto a GitHub:
+
+## En tu carpeta que tienes asignada sube :
+El archivo XML.
+El archivo DTD.
+Un archivo README.md que explique brevemente el propósito del XML y cómo está estructurado.
+
+## README.md:
+Incluye en tu archivo README.md una breve descripción del proyecto.
+Indica la estructura general de los elementos principales y las validaciones hechas con el DTD.
