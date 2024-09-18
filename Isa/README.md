@@ -40,9 +40,19 @@ actividad: Debe contener los elementos nombre, duracion y descripcion en ese ord
 
 Esta estructura asegura que cada paquete tenga un destino, un precio y al menos una actividad, y que cada actividad esté detallada con un nombre, una duración y una descripción. 
 
-## Visuales
+## Construido Con 🛠️
 
-## Estructura del XML
+- [XML] - El lenguaje utilizado - lenguaje de marcado que proporciona reglas para definir cualquier dato
+- [DTD]- Definición de tipo de documento - conjunto de reglas sintácticas para definir etiquetas
+ 
+
+## Autor ✒️
+
+- **Isana M. G.** - _Trabajo de práctica_ - XML y DTD
+
+
+
+## Estructura del XML Y DTD
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -94,15 +104,3 @@ Esta estructura asegura que cada paquete tenga un destino, un precio y al menos 
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT duracion (#PCDATA)>
 <!ELEMENT descripcion (#PCDATA)>
-
-
-## Construido Con 🛠️
-
-- [XML] - El lenguaje utilizado - lenguaje de marcado que proporciona reglas para definir cualquier dato
-- [DTD]- Definición de tipo de documento - conjunto de reglas sintácticas para definir etiquetas
- 
-
-## Autor ✒️
-
-- **Isana M. G.** - _Trabajo de práctica_ - XML y DTD
-
