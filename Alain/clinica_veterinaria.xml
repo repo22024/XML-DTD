@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- XML Clínica Veterinaria-->
+<?xml-model href="clinica_veterinaria.dtd" type="application/xml-dtd"?>
+
+<clinica>
+    <clientes>
+        <pacientes>
+            <mascotas>
+                <mascota id_mascota="m1">
+                    <nombre>misu</nombre>
+                    <especie>gato</especie>
+                    <raza>Sphynx</raza>
+                    <edad>2</edad>
+                    <id_dueño>d1</id_dueño>
+                </mascota>
+                <mascota id_mascota="m2">
+                    <nombre>neron</nombre>
+                    <especie>perro</especie>
+                    <raza>chiguagua</raza>
+                    <edad>7</edad>
+                    <id_dueño>d3</id_dueño>
+                </mascota>
+                <mascota id_mascota="m3">
+                    <nombre>roger</nombre>
+                    <especie>conejo</especie>
+                    <raza>californiano</raza>
+                    <edad>1</edad>
+                    <id_dueño>d2</id_dueño>
+                </mascota>
+            </mascotas>
+        </pacientes>
+        <dueños_mascotas>
+            <dueño_mascota id="d1">
+                <nombre>Fulano</nombre>
+                <telefono>123456789</telefono>    
+            </dueño_mascota>
+            <dueño_mascota id="d2">
+                <nombre>mengana</nombre>
+                <telefono>234567890</telefono>    
+            </dueño_mascota>
+            <dueño_mascota id="d3">
+                <nombre>sutanejo</nombre>
+                <telefono>345678901</telefono>    
+            </dueño_mascota>
+        </dueños_mascotas>
+    </clientes>
+</clinica>
