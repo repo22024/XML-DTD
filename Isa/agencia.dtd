@@ -1,0 +1,12 @@
+<!ELEMENT agencia (paquetes)>
+<!ELEMENT paquetes (paquete+)>
+<!ELEMENT paquete (destino, precio, actividad+)>
+
+<!ATTLIST paquete idpaquete ID #REQUIRED>
+<!ELEMENT destino (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT actividad (nombre, duracion, descripcion)>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
