@@ -9,8 +9,8 @@ Este proyecto implementa un sistema de biblioteca para registrar videojuegos uti
 
 ## Archivos del Proyecto
 
-1. **biblioteca.xml**: Archivo XML que contiene la información sobre los videojuegos.
-2. **biblioteca.dtd**: Archivo DTD que define y valida la estructura de `biblioteca.xml`.
+1. **videojuegos.xml**: Archivo XML que contiene la información sobre los videojuegos.
+2. **videojuego.dtd**: Archivo DTD que define y valida la estructura de `videojuego.xml`.
 3. **README.md**: Archivo explicativo sobre el proyecto y las validaciones implementadas.
 
 ## Descripción del XML
