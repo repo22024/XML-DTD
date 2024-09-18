@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca PUBLIC "public-id" "videogames.dtd">
+<biblioteca>
+    <videojuego idvendedor="V001" plataforma="PS5">
+        <titulo>Grand Theif Auto San Andreas</titulo>
+        <precio>59.99</precio>
+        <stock>20</stock>
+    </videojuego>
+    
+    <videojuego idvendedor="V002" plataforma="Xbox">
+        <titulo>Halo Infinite</titulo>
+        <precio>49.99</precio>
+        <stock>15</stock>
+    </videojuego>
+    
+    <videojuego idvendedor="V003" plataforma="PC">
+        <titulo>Cyberpunk 2077</titulo>
+        <precio>39.99</precio>
+        <stock>25</stock>
+    </videojuego>
+</biblioteca>
