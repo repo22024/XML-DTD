@@ -4,7 +4,7 @@ Este repositorio contiene 9 carpetas, cada una con enunciados específicos sobre
 Estructura del Repositorio
 El repositorio se organiza en 9 carpetas, cada una asignada a un colaborador. A continuación se detalla el contenido de cada carpeta:
 
-## Nat/ - Restaurante y Menú
+## Nat/ - [Restaurante y Menú]
 
 Descripción: Creación de un XML para gestionar menús y platos de un restaurante. Los menús se dividen en categorías (desayuno, almuerzo, cena) y contienen platos con nombre, precio, e ingredientes.
 Archivos:
