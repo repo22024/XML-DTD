@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE tienda PUBLIC "public-id" "tienda.dtd">
+<!--Inicio para asociar el XML a un archivo validador (DTD o XSD) a conveniencia, si se usa uno, desactivar el otro poniéndolo como comentario-->
+<!--<!DOCTYPE tienda PUBLIC "public-id" "tienda.dtd">--><!--Esta linea sirve para validar el documento XML mediante un documento DTD-->
+<?xml-model href="tienda.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?><!--Esta linea sirve para validar el documento XML mediante un documento XSD-->
+<!--Fin de las sentencias para validar el documento-->
 <tienda>
 <comidas>
     <comida idcomida="CA001" especie="Gato">
