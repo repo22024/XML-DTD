@@ -25,3 +25,4 @@ Comida:(idcomida, nombrecomida,especie, precio, peso)
 Cliente:(idcliente, nombrecliente,telefono)
 
 Toda la información y la estructura está validada por el fichero "tienda.dtd", que está vinculado internamente con el fichero (tienda.xml)
+Recientemente se ha añadido el fichero "tienda.xsd", que es otra manera de validar el archivo "tienda.xml, de manera más moderna y restrictiva.
