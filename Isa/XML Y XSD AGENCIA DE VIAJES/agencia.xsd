@@ -1,0 +1,32 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="agencia">
+        <xs:complexType>
+           <xs:sequence>
+                <xs:element name="paquetes">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="paquete" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="destino" type="xs:string"/>
+                                        <xs:element name="precio" type="xs:decimal"/>
+                                        <xs:element name="actividad" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="nombre" type="xs:string"/>
+                                                    <xs:element name="duracion" type="xs:integer"/>
+                                                    <xs:element name="descripcion" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="idpaquete" type="xs:ID" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
