@@ -2,6 +2,7 @@
     <!ELEMENT clientes (pacientes+, dueños_mascotas)>
     <!ELEMENT pacientes (mascotas+)>
     <!ELEMENT mascotas (mascota+)>
+<!-- se pone opcional la edad y raza-->
     <!ELEMENT mascota (nombrem, especie, raza?, edad?, id_dueño)>
     <!ATTLIST mascota id_mascota ID #REQUIRED>
     <!ELEMENT nombrem (#PCDATA)>
