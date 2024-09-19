@@ -1,1 +1,16 @@
-
+<!ELEMENT clinica (clientes)>    
+    <!ELEMENT clientes (pacientes+, dueños_mascotas)>
+    <!ELEMENT pacientes (mascotas+)>
+    <!ELEMENT mascotas (mascota+)>
+    <!ELEMENT mascota (nombrem, especie, raza?, edad?, id_dueño)>
+    <!ATTLIST mascota id_mascota ID #REQUIRED>
+    <!ELEMENT nombrem (#PCDATA)>
+    <!ELEMENT especie (#PCDATA)>
+    <!ELEMENT raza (#PCDATA)>
+    <!ELEMENT edad (#PCDATA)>
+    <!ELEMENT id_dueño (#PCDATA)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT dueños_mascotas (dueño_mascota+)>
+    <!ELEMENT dueño_mascota (nombre, telefono)>
+    <!ATTLIST dueño_mascota id ID #REQUIRED>
+    <!ELEMENT telefono (#PCDATA)>
