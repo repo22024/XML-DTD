@@ -65,12 +65,14 @@ Esta estructura asegura que cada paquete tenga un destino, un precio y al menos 
             <actividad>
                <nombre>Primer día: centro de Londres</nombre>
                <duracion>9</duracion>
-               <descripcion>Visita a Piccadilly Circus: plaza de Picadilly, visita al Museo The National Gallery, recorrido por la avenida The Mall para ver el Buckingham Palace, parada para almorzar, continuamos el recorrido para visitar la Abadía de Westminster, el Big Ben y, al cruzar el río Támesis, visitar la noria London Eye. </descripcion>
+               <descripcion>Visita a Piccadilly Circus: plaza de Picadilly, visita al Museo The National Gallery, recorrido por la avenida The Mall para ver el Buckingham Palace,
+                parada para almorzar, continuamos el recorrido para visitar la Abadía de Westminster, el Big Ben y, al cruzar el río Támesis, visitar la noria London Eye. </descripcion>
             </actividad>
             <actividad>
                 <nombre>Segundo día: Bethnal Green y Camden Market</nombre>
                 <duracion>6</duracion>
-                <descripcion>Descubrir la vida en las calles londinenses y sus mercados: Visita a Bethnal Green Road, visita al mercadillo Broadway Market, viaje hasta Camden para visitar su mercado y el Stables Market</descripcion>
+                <descripcion>Descubrir la vida en las calles londinenses y sus mercados: Visita a Bethnal Green Road, visita al mercadillo Broadway Market,
+                 viaje hasta Camden para visitar su mercado y el Stables Market</descripcion>
              </actividad>
              <actividad>
                 <nombre>Tercer día: Parque Olímpico o Hyde Park + British Museum</nombre>
