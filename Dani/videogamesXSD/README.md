@@ -5,7 +5,7 @@
 #### *Modulo: Creacion y gestion de repositorios de contenidos*
 
 ## Descripción
-Este proyecto implementa un sistema de biblioteca para registrar videojuegos utilizando un documento XML validado mediante un DTD. Cada videojuego cuenta con detalles como su título, plataforma, precio y stock disponible.
+Este proyecto implementa un sistema de biblioteca para registrar videojuegos utilizando un documento XML validado mediante un fichero XSD [fichero](https://github.com/repo22024/XML-DTD/blob/main/Dani/videogamesXSD/videogamesVal.xsd). Cada videojuego cuenta con detalles como su título, plataforma, precio y stock disponible.
 
 ## Archivos del Proyecto
 
