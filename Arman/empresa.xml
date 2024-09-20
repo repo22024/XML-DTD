@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Empresa PUBLIC "public-id" "empresa.dtd">
+
+<Empresa>
+    <Empleados>
+        <Empleado IdEmpleado="E001" FechaContrato="2024-01-01">
+            <NombreEmpleado>Jose Perez</NombreEmpleado>
+            <Departamento>Administracion</Departamento>
+            <ProyectoAsignado>P001</ProyectoAsignado>
+        </Empleado>
+
+        <Empleado IdEmpleado="E002" FechaContrato="2022-02-01">
+            <NombreEmpleado>Marcos Parra</NombreEmpleado>
+            <Departamento>Ingenieria</Departamento>
+            <ProyectoAsignado>P002, P003</ProyectoAsignado>
+        </Empleado>
+
+        <Empleado IdEmpleado="E003" FechaContrato="2023-03-01">
+            <NombreEmpleado>Jonathan Malave</NombreEmpleado>
+            <Departamento>Ingenieria</Departamento>
+            <ProyectoAsignado>P003</ProyectoAsignado>
+        </Empleado>
+    </Empleados>
+       
+    <Proyectos>
+        <Proyecto Estado="Activo" IdProyecto="P001">
+            <NombreProyecto>Alfa</NombreProyecto>
+        </Proyecto>
+
+        <Proyecto Estado="Activo" IdProyecto="P002">
+            <NombreProyecto>Beta</NombreProyecto>
+        </Proyecto>
+
+        <Proyecto Estado="Activo" IdProyecto="P003">
+            <NombreProyecto>Gamma</NombreProyecto>
+        </Proyecto>
+    </Proyectos>
+</Empresa>

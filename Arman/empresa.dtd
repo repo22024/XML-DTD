@@ -1,0 +1,21 @@
+<!ELEMENT Empresa (Empleados, Proyectos)>
+
+<!ELEMENT Empleados (Empleado+)>
+<!ELEMENT Empleado (NombreEmpleado, Departamento, ProyectoAsignado*)>
+<!ATTLIST Empleado IdEmpleado ID #REQUIRED>
+<!ATTLIST Empleado FechaContrato CDATA #REQUIRED>
+
+<!ELEMENT IdEmpleado (#PCDATA)>
+<!ELEMENT FechaContrato (#PCDATA)>
+<!ELEMENT NombreEmpleado (#PCDATA)>
+<!ELEMENT Departamento (#PCDATA)>
+<!ELEMENT ProyectoAsignado (#PCDATA)>
+
+
+
+<!ELEMENT Proyectos (Proyecto+)>
+<!ELEMENT Proyecto (NombreProyecto)>
+<!ATTLIST Proyecto IdProyecto ID #REQUIRED>
+<!ATTLIST Proyecto Estado (Activo|Completado|Pausado) #REQUIRED>
+
+<!ELEMENT NombreProyecto (#PCDATA)>
