@@ -1,0 +1,10 @@
+Dani revisa lo siguiente y actualiza 
+Cambiar idvendedor a idjuego para seguir el enunciado.
+Eliminar la declaración de <plataforma> como un elemento en el DTD, ya que es un atributo en el XML.
+Eliminar la declaración del elemento id, ya que no se usa en el XML.
+Asegurarse de que los valores numéricos se usen de forma adecuada, agregando comentarios que indiquen la expectativa de ser enteros positivos.
+ ### <videojuego idjuego="V001" plataforma="PS5">
+        <titulo>Grand Theft Auto San Andreas</titulo>
+        <precio>59.99</precio>
+        <stock>20</stock>
+    </videojuego>
