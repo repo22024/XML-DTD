@@ -1,0 +1,47 @@
+Hola Orlando, el proyecto esta bien implementado yo me he lanzado a ver que te parece:
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE estudio PUBLIC "public-id" "musica.dtd">
+
+<estudio>
+    <canciones>
+        <cancion id_cancion="c-001" categoria="rock">
+            <titulo>Propuesta</titulo>
+            <artista>
+                <nombre>Buena Fe</nombre>
+            </artista>
+            <album>Corazonero</album>
+            <duracion>3.25</duracion>
+        </cancion>
+
+        <cancion id_cancion="c-002" categoria="rock">
+            <titulo>Así fue</titulo>
+            <artista>
+                <nombre>Juan Gabriel</nombre>
+                <nombre>Isabel Pantoja</nombre>
+            </artista>
+            <album>Desde Andalucía</album>
+            <duracion>3.7</duracion>
+        </cancion>
+
+        <cancion id_cancion="c-003" categoria="rock">
+            <titulo>Copacabana</titulo>
+            <artista>
+                <nombre>Barry Manilow</nombre>
+            </artista>
+            <album>Even Now</album>
+            <duracion>4.12</duracion>
+        </cancion>
+    </canciones>
+</estudio>
+____________________________________________
+<!ELEMENT estudio (canciones)>
+<!ELEMENT canciones (cancion+)>
+<!ELEMENT cancion (titulo, artista, album, duracion)>
+<!ATTLIST cancion id_cancion ID #REQUIRED>
+<!ATTLIST cancion categoria (rock | pop | jazz) #REQUIRED>
+<!ELEMENT titulo (#PCDATA)>
+  
+<!ELEMENT artista (nombre+)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT album (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>
