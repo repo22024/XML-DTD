@@ -1,0 +1,64 @@
+Hola Natalia el XML y su validacion  está bien yo te voy a aportar mi parte  a ver que te parece. Buen trabajo a ver que tal llevas el tuyo al XSD
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE restaurante PUBLIC "public-id" "RestauranteDTD.dtd">
+<restaurante>
+    <menus>
+        <menu idmenu="M01" categoria="almuerzo">
+            <nombrem>Menu El Limon</nombrem>
+            <plato idplato="P01"/>
+            <plato idplato="P02"/>
+            <plato idplato="P03"/>
+        </menu>
+        <menu idmenu="M02" categoria="cena">
+            <nombrem>Menu Infantil</nombrem>
+            <plato idplato="P04"/>
+            <plato idplato="P02"/>
+            <plato idplato="P05"/>
+        </menu>
+    </menus>
+
+    <platos>
+        <plato idplato="P01" vegano="si">
+            <nombre>Hamburguesa vegetariana de alubias blancas</nombre>
+            <precio>5.90</precio>
+            <ingredientes>pan de molde, alubias blancas, zanahoria, calabacin</ingredientes>
+        </plato>
+        <plato idplato="P02" vegano="si">
+            <nombre>Papas fritas</nombre>
+            <precio>3.50</precio>
+            <ingredientes>papa, aceite de oliva, sal</ingredientes>
+        </plato>
+        <plato idplato="P03" vegano="si">
+            <nombre>Zumo de naranja</nombre>
+            <precio>4.00</precio>
+            <ingredientes>naranja</ingredientes>
+        </plato>
+        <plato idplato="P04">
+            <nombre>Croquetas vegetarianas</nombre>
+            <precio>5.50</precio>
+            <ingredientes>pimiento verde, aceite de oliva, calabacin, espinacas, harina, huevo, leche</ingredientes>
+        </plato>
+        <plato idplato="P05" vegano="si">
+            <nombre>Zumo de platano y helado</nombre>
+            <precio>4.50</precio>
+            <ingredientes>platano, nata liquida vegana para montar, azucar glase, vanilla</ingredientes>
+        </plato>
+    </platos>
+</restaurante>
+
+_______________________________________________________________________
+<!ELEMENT restaurante (menus, platos)>
+
+<!ELEMENT menus (menu+)>
+<!ELEMENT menu (nombrem, plato+)>
+<!ATTLIST menu idmenu ID #REQUIRED>
+<!ATTLIST menu categoria (desayuno | almuerzo | cena) #REQUIRED>
+<!ELEMENT nombrem (#PCDATA)>
+
+<!ELEMENT platos (plato+)>
+<!ELEMENT plato (nombre, precio, ingredientes)>
+<!ATTLIST plato idplato ID #REQUIRED>
+<!ATTLIST plato vegano (si | no) "no">
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT ingredientes (#PCDATA)>
