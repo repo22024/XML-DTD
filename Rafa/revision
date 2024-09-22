@@ -1,0 +1,3 @@
+Hola Rafa. En peso ajusta el dato por ejemplo 750gr 2.5kg ajusta el xml para que puedas utilizar una etiqueta nueva que diga unidad : kg, gr, lt, ml asi el dato puede ser 750 y su unidad kg 
+unifica las especies Gato=gato cambia las especies a  minúsculas 
+(gato, perro, conejo) para cumplir con la convención de etiquetas XML, ya que los atributos de XML son case-sensitive (sensibles a mayúsculas y minúsculas). en tu caso Gato , Perro, 
