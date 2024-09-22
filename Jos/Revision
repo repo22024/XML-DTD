@@ -1,0 +1,32 @@
+## Hola Jose revisa lo siguiente 
+Atributo id_peli vs idpelicula:
+
+En el enunciado, se menciona que el identificador debe ser idpelicula, pero en el XML y DTD está como id_peli. Aunque esto no es un error funcional, debe ser consistente con el enunciado.
+Atributo catl_peli vs categoria:
+
+Similar al problema anterior, en el enunciado se menciona el atributo categoria, pero en el XML y DTD se usa catl_peli. Debería unificarse el nombre del atributo según el enunciado (categoria).
+Validación de categorías:
+
+El enunciado establece que las únicas categorías válidas son "acción", "comedia" y "drama". Sin embargo, el XML y el DTD permiten categorías adicionales como "horror", "musical", "suspense", "infantil", "SCFY", "erotico", y "fantasia". Esto viola el requerimiento del enunciado y debería restringirse a las categorías indicadas: "accion", "comedia", "drama".
+Formato de la duración:
+
+El campo duracion incluye unidades como "min", por ejemplo, 110min. Según el enunciado, la duración debe ser solo un número positivo (no se debe incluir la palabra "min"). Esto viola la validación que se esperaba.
+Fechas de emisión (fech_emi):
+
+Aunque no se menciona explícitamente en el enunciado, el formato de la fecha debería seguir un estándar más consistente, como "AAAA-MM-DD", en lugar de fechas como "30/09/1995", para garantizar la uniformidad.
+Uso de categorías no permitidas:
+
+En el XML proporcionado, hay varias categorías no permitidas como "musical", "horror", "suspense", "infantil", "SCFY", "erotico", "fantasia". Según el enunciado, estas categorías no están contempladas.
+Resumen de los errores:
+Inconsistencias de nombres de atributos:
+
+El nombre de idpelicula y categoria debe corregirse en lugar de id_peli y catl_peli.
+Validación incorrecta de categorías:
+
+Las categorías permitidas deberían ser solo "accion", "comedia" y "drama". Las otras categorías deben eliminarse o corregirse.
+Formato incorrecto en duracion:
+
+La duración debe ser un número positivo, sin incluir el texto "min". Debe corregirse el formato.
+Formato de las fechas de emisión (fech_emi):
+
+Aunque no es un requerimiento explícito del enunciado, sería recomendable utilizar un formato de fecha estándar como "AAAA-MM-DD" para mejorar la coherencia.
