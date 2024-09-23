@@ -18,6 +18,7 @@
                     <xs:element name="nombrecomida" type="xs:string"/>
                     <xs:element name="precio" type="xs:decimal"/>
                     <xs:element name="peso" type="xs:decimal"/>
+                    <xs:element name="unidad" type="xs:string"/>
                   </xs:sequence>
                   <xs:attribute name="idcomida" type="xs:string" use="required"/>
                   
