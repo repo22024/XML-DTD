@@ -9,26 +9,31 @@
         <nombrecomida>Delicias Gatunas</nombrecomida>
         <precio>45.25</precio> 
         <peso>2.5</peso>
+        <unidad>Kg</unidad>
     </comida>
     <comida idcomida="CA002" especie="Perro">
         <nombrecomida>Galletas Guau</nombrecomida>
         <precio>7.25</precio> 
         <peso>0.750</peso>
+        <unidad>Gr</unidad>
     </comida>
     <comida idcomida="CA003" especie="Conejo">
         <nombrecomida>Hinojo Fresco</nombrecomida>
         <precio>2.5</precio> 
         <peso>0.250</peso>
+        <unidad>Kg</unidad>
     </comida>
     <comida idcomida="CA004" especie="Gato">
         <nombrecomida>Wiskas seca</nombrecomida>
         <precio>12.50</precio> 
         <peso>4.00</peso>
+        <unidad>Kg</unidad>
     </comida>
     <comida idcomida="CA005" especie="Perro">
         <nombrecomida>Friskis</nombrecomida>
         <precio>3.50</precio> 
         <peso>0.50</peso>
+        <unidad>Kg</unidad>
     </comida>
 </comidas>
 
