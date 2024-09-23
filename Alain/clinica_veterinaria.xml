@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- XML Clínica Veterinaria-->
 <?xml-model href="clinica_veterinaria.dtd" type="application/xml-dtd"?>
+<!--
+<?xml-model href="clinica_veterinaria.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+-->
 
 <clinica>
     <clientes>
