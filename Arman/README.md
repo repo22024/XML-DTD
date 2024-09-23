@@ -38,6 +38,6 @@ En Proyectos esta registrado el id del proyecto, el nombre y el estado en que se
 
 Los archivos están codificados bajo el estándar UTF8 y CRLF
 
-# 💾 Autoría y Licencia
+# 💾 Autoría
 
-Realizado por Armando Malavé como práctica de XML y DTD. Código bajo licencia MIT.
+Realizado por Armando Malavé como práctica de XML y DTD
