@@ -23,15 +23,15 @@
     </Empleados>
        
     <Proyectos>
-        <Proyecto Estado="Activo" IdProyecto="P001">
+        <Proyecto IdProyecto="P001" Estado="Activo">
             <NombreProyecto>Alfa</NombreProyecto>
         </Proyecto>
 
-        <Proyecto Estado="Activo" IdProyecto="P002">
+        <Proyecto IdProyecto="P002" Estado="Activo">
             <NombreProyecto>Beta</NombreProyecto>
         </Proyecto>
 
-        <Proyecto Estado="Activo" IdProyecto="P003">
+        <Proyecto IdProyecto="P003" Estado="Activo">
             <NombreProyecto>Gamma</NombreProyecto>
         </Proyecto>
     </Proyectos>
