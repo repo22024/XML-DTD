@@ -6,6 +6,7 @@
 <!ELEMENT nombrecomida (#PCDATA)>
 <!ELEMENT precio (#PCDATA)>
 <!ELEMENT peso (#PCDATA)>
+<!ELEMENT unidad (#PCDATA)>
 <!ELEMENT clientes (cliente+)>
 <!ELEMENT cliente (nombrecliente,telefono)>
 <!ATTLIST cliente idcliente ID #REQUIRED>
