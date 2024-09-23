@@ -33,7 +33,7 @@
                                                                 <xs:element name="especie" type="xs:string" />
                                                                 <xs:element name="raza" type="xs:string" minOccurs="0" />
                                                                 <xs:element name="edad" type="ClassEdadEspecieType" minOccurs="0" />
-                                                                <xs:element name="id_dueño" type="xs:Name" />
+                                                                <xs:element name="id_dueño" type="xs:IDREF" />
                                                             </xs:sequence>
                                                             <xs:attribute name="id_mascota" type="xs:ID" use="required" />
                                                         </xs:complexType>
