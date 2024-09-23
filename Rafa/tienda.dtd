@@ -2,7 +2,7 @@
 <!ELEMENT comidas (comida+)>
 <!ELEMENT comida (nombrecomida,precio,peso)>
 <!ATTLIST comida idcomida ID #REQUIRED>
-<!ATTLIST comida especie  (Perro | Gato | Conejo | Indefinido) #REQUIRED>
+<!ATTLIST comida especie  (perro | gato | conejo | indefinido) #REQUIRED>
 <!ELEMENT nombrecomida (#PCDATA)>
 <!ELEMENT precio (#PCDATA)>
 <!ELEMENT peso (#PCDATA)>
