@@ -25,10 +25,10 @@
                   <xs:attribute name="especie" use="required">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
-                        <xs:enumeration value="Gato"/>
-                        <xs:enumeration value="Perro"/>
-                        <xs:enumeration value="Conejo"/>
-                        <xs:enumeration value="Indiferente"/>
+                        <xs:enumeration value="gato"/>
+                        <xs:enumeration value="perro"/>
+                        <xs:enumeration value="conejo"/>
+                        <xs:enumeration value="indiferente"/>
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:attribute>
